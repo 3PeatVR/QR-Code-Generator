@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,500;1,500&family=Press+Start+2P&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Silkscreen:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+a{
+    text-decoration: none;
+    display: flex;
+    font-size: 60px;
+    margin: auto;
+    width: 100%;
+
+}
+
+header{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 15px;
+    box-shadow: 1px 1px 25px rgba(0,0,0,0.7);
+
+}
+.logo{
+    font-family: "Silkscreen", sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    background-color: #ffffffff;
+    border: 20px solid black;
+    
+
+    
+
+} 
+
+#input{
+    font-family: "JetBrains Mono", sans-serif;
+    font-weight: 500;
+    display: block;
+    margin: 50px 25%;
+    border-style: solid;
+    border-width: 3px;
+    width: 50%;
+    text-align: center;
+    font-size: 35px;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+}
+
+#box{
+    display: flex;
+    margin: 50px 45%;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+     
+    
+}
+.containerBoutons{
+    display:flex;
+    flex-direction: column;
+
+}
+QRCode{
+    padding: 40px;    
+}
+
+#un, #quatre, #six, #neuf, #onze, #treize, #quinze, #dixse{
+    color: #000000;
+    background-color: #ffffffff;
+}
+
+#symb, #deux, #cinq, #sept, #dix, #douze, #quat, #seize{
+    color: #ffffffff;
+    background-color:#000000
+}
+
+
+#red, #red_eye, #black, #black_eye, #blue, #blue_eye, #fluid, #square, #green, #green_eye{
+    font-family: 'Red Hat Display' ,sans-serif;
+    border: 1px solid #000000;
+    background: #ffffffff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    font-size: 16px;
+    width: 20%;
+    height: 80px;
+    padding: 10px;
+}
+
+#red, #red_eye{
+    color: #fb2e01;
+}
+#red:hover, #red_eye:hover{
+    color: #ffffffff;
+    background-color: #fb2e01;
+}
+
+#black, #black_eye{
+        color: #000000;
+ 
+}
+
+#black:hover, #black_eye:hover{
+    color: #ffffffff;
+    background-color: #000000;
+}
+
+
+#blue, #blue_eye{
+
+    color: #0e367c;
+  
+}
+
+#blue:hover, #blue_eye:hover{
+    color: #ffffffff;
+    background-color: #0e367c
+}
+
+
+#green, #green_eye{
+    color: #3c6c37;
+}
+#green:hover, #green_eye:hover{
+    color: #ffffffff;
+    background-color: #3c6c37;
+}
+
+
+
+#fluid:hover{
+    border-radius: 30px;
+}
+
+#square:hover{
+    border-radius: 0px;
+}
+
+.para{
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 450;
+}
+
+
+
+@media screen and (max-width:1000px){
+    .logo{width: 100%;}
+    a{display: block;}
+    header{display: block;
+    width: 100%;}
+}
