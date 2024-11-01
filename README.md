@@ -1,8 +1,8 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
+# QR Generator
+## Description du projet
+Il s'agit d'un générateur de QR code, où l'on peut modifier la forme du code et la couleur du code et des indicateurs.
+***
+## Technologies utilisées
 
 In the project directory, you can run:
 
