@@ -4,7 +4,7 @@
 Il s'agit d'un générateur de QR code d'URL en temps réel, où l'on peut modifier la forme du code et la couleur du code et des indicateurs.
 ***
 ## Technologies utilisées
-Le front du site est fait en HTML/CSS, le back en JavaScript avec le frameork ReactJS. L'application peut être conteneurisée par Docker grâce au Dockerfile. Le QR Code est généré grâce à [react-qrcode-logo-npm](https://www.npmjs.com/package/react-qrcode-logo).
+Le front du site est fait en HTML/CSS et utilise ReactJS. L'application peut être conteneurisée par Docker grâce au Dockerfile. Le QR Code est généré grâce à [react-qrcode-logo-npm](https://www.npmjs.com/package/react-qrcode-logo).
 ***
 ## Déploiement du site
 On peut déployer le site sur sa machine en faisant ```npm install``` dans l'invité de commande pour installer les dépendances et ```npm start``` pour lancer l'application.
