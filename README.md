@@ -1,7 +1,7 @@
 # QR Generator
-
+![Screenshot de la page](figures/Screenshot_01-nov._13-49-01_2854.png)
 ## Description du projet
-Il s'agit d'un générateur de QR code d'url, où l'on peut modifier la forme du code et la couleur du code et des indicateurs.
+Il s'agit d'un générateur de QR code d'URL en temps réel, où l'on peut modifier la forme du code et la couleur du code et des indicateurs.
 ***
 ## Technologies utilisées
 Le front du site est fait en HTML/CSS et utilise le framework ReactJS. L'application peut être conteneurisée par Docker grâce au Dockerfile. Le QR Code est généré grâce à [react-qrcode-logo-npm](https://www.npmjs.com/package/react-qrcode-logo).
