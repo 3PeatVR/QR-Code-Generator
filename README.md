@@ -8,4 +8,4 @@ Le front du site est fait en HTML/CSS et utilise le framework ReactJS. L'applica
 ***
 ## Déploiement du site
 On peut déployer le site sur sa machine en faisant ```npm install``` pour installer les dépendances et ```npm start``` pour lancer l'application.
-Pour lancer l'application sur Docker, il faut faire ```docker build . -t <nom qu'on veut donner au container>:<version qu'on veut donner au container>``` puis ```docker run -p 8080:3000 <nom du container>```. Dans les 2 méthodes, on se connecte sur le site à l'adresse https://localhost:8080
+Pour lancer l'application sur Docker, il faut faire ```docker build . -t <nom qu'on veut donner au container>:<version qu'on veut donner au container>``` puis ```docker run -p 8080:3000 <nom du container>```. Dans les 2 méthodes, on se connecte sur le site à l'adresse https://localhost:8080 .
